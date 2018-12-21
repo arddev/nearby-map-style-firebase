@@ -1,8 +1,4 @@
-package com.nug.karanganyar.places;
 
-/**
- * Created by Bezet on 06/04/2017.
- */
 
 public class PlacesModel {
     String placeId;
