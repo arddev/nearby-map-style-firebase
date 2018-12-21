@@ -9,8 +9,8 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.nug.karanganyar.R;
-import com.nug.karanganyar.places.PlacesModel;
+import .R;
+import .places.PlacesModel;
 
 import java.util.ArrayList;
 import java.util.List;
