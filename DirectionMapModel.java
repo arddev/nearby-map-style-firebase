@@ -1,10 +1,8 @@
-package com.nug.karanganyar.maps.shared;
+package .maps.shared;
 
 import com.google.android.gms.maps.model.LatLng;
 
-/**
- * Created by ihsan_bz on 07/08/2016.
- */
+
 public class DirectionMapModel {
 
     private String distance;
