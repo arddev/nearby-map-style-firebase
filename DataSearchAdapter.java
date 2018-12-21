@@ -1,4 +1,4 @@
-package com.nug.karanganyar.maps.shared;
+package .maps.shared;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,9 +15,7 @@ import com.nug.karanganyar.places.PlacesModel;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ihsan_bz on 21/02/2016.
- */
+
 public class DataSearchAdapter extends BaseAdapter implements Filterable {
 
     ValueFilter valueFilter;
