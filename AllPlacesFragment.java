@@ -1,8 +1,6 @@
-package com.nug.karanganyar.places;
+package .places;
 
-/**
- * Created by Ravi on 29/07/15.
- */
+
 
 import android.app.Activity;
 import android.app.SearchManager;
@@ -26,13 +24,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nug.karanganyar.R;
-import com.nug.karanganyar.ar.rotation.ARActivity;
-import com.nug.karanganyar.contextmenu.ContextMenuDialogFragment;
-import com.nug.karanganyar.contextmenu.MenuObject;
-import com.nug.karanganyar.contextmenu.MenuParams;
-import com.nug.karanganyar.contextmenu.interfaces.OnMenuItemClickListener;
-import com.nug.karanganyar.utils.Config;
+import .R;
+import r.ar.rotation.ARActivity;
+import .contextmenu.ContextMenuDialogFragment;
+import .contextmenu.MenuObject;
+import .contextmenu.MenuParams;
+import .contextmenu.interfaces.OnMenuItemClickListener;
+import .utils.Config;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
