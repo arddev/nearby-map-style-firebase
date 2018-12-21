@@ -1,4 +1,4 @@
-package com.nug.karanganyar.places;
+package.places;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,18 +16,16 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.nug.karanganyar.R;
-import com.nug.karanganyar.description.DescriptionActivity;
-import com.nug.karanganyar.utils.Constants;
+import .R;
+import .description.DescriptionActivity;
+import.utils.Constants;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Bezet on 06/04/2017.
- */
+
 
 public class AllPlacesAdapter extends RecyclerView.Adapter<AllPlacesAdapter.MyViewHolder> implements Filterable {
 
