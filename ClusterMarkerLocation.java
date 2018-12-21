@@ -1,11 +1,9 @@
-package com.nug.karanganyar.maps.shared;
+package .maps.shared;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.clustering.ClusterItem;
 
-/**
- * Created by ihsan_bz on 16/06/2016.
- */
+
 public class ClusterMarkerLocation implements ClusterItem {
 
     private LatLng mPosition;
