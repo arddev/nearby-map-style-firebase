@@ -1,4 +1,4 @@
-package com.nug.karanganyar.maps.online;
+package .maps.online;
 
 import android.Manifest;
 import android.content.Context;
@@ -32,16 +32,16 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.nug.karanganyar.R;
-import com.nug.karanganyar.maps.shared.DirectionMapModel;
-import com.nug.karanganyar.utils.AppController;
-import com.nug.karanganyar.utils.Config;
-import com.nug.karanganyar.utils.Constants;
-import com.nug.karanganyar.utils.MapDirectionParser;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.maps.CameraUpdate;
+import .R;
+import .maps.shared.DirectionMapModel;
+import .utils.AppController;
+import .utils.Config;
+import.utils.Constants;
+import .utils.MapDirectionParser;
+import .gms.ads.AdListener;
+import .gms.ads.AdRequest;
+import .gms.ads.InterstitialAd;
+import .gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -69,9 +69,8 @@ import java.util.List;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
-/**
- * Created by Bezet on 06/04/2017.
- */
+
+
 public class DirectionActivity extends AppCompatActivity implements
         OnMapReadyCallback, View.OnClickListener, LocationListener, GoogleMap.OnMapLongClickListener, StepAdapter.ItemListener {
 
